@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aad.prep">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".core.activity.WorkManagerActivity"/>
+        <activity android:name=".core.activity.AppLocalizeActivity" />
+        <activity android:name=".core.activity.ContentProviderActivity" />
+        <activity android:name=".core.activity.BroadcastReceiverActivity" />
+        <activity android:name=".core.activity.AndroidServicesActivity" />
+        <activity android:name=".core.activity.AndroidNotificationActivity" />
+        <activity android:name=".core.activity.SnackbarActivity" />
+        <activity android:name=".core.activity.ToastActivity" />
+        <activity android:name=".core.activity.AndroidIntentActivity" />
+
+
+
+
+        <activity
+            android:name=".core.activity.FragmentLifecycleActivity"
+            android:label="@string/title_activity_fragment_lifecycle">
+        </activity>
+        <activity android:name=".core.activity.CoreActivity" />
+        <activity android:name=".core.activity.ActivityLifecycleActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

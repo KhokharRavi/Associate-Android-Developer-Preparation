@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AAD-Prep</string>
+    <string name="activity_lifecycle">Activity Lifecycle</string>
+    <string name="fragment_lifecycle">Fragment Lifecycle</string>
+    <string name="android_intents">Android Intents</string>
+    <string name="toast">Toast</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="android_notification">Android Notification</string>
+    <string name="services">Android Services</string>
+    <string name="broadcast_receivers">Broadcast Receivers</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="app_localize">App Localize</string>
+    <string name="work_manager">WorkManager</string>
+
+
+    <string-array name="core_concept">
+        <item>@string/activity_lifecycle</item>
+        <item>@string/fragment_lifecycle</item>
+        <item>@string/android_intents</item>
+        <item>@string/toast</item>
+        <item>@string/snackbar</item>
+        <item>@string/android_notification</item>
+        <item>@string/services</item>
+        <item>@string/broadcast_receivers</item>
+        <item>@string/content_provider</item>
+        <item>@string/app_localize</item>
+        <item>@string/work_manager</item>
+
+
+    </string-array>
+    <string name="title_activity_fragment_lifecycle">FragmentLifecycleActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
